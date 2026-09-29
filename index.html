@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title></title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+<!-- =========================
+     PANTALLA DE INICIO
+========================== -->
+
+
+
+<div class="inicio" id="inicio">
+
+    <div class="corazon">♡</div>
+
+    <h1>hecho con todo mai lov </h1>
+
+    <div class="flor-inicio">
+        <img
+            src="img/flor.jpeg"
+            alt="Una flor"
+        >
+    </div>
+
+    <p>
+        para tu :3
+    </p>
+
+    <button id="entrar">
+        Entrar 💗
+    </button>
+
+</div>
+
+</main>
+
+
+<!-- =========================
+     MENÚ PRINCIPAL
+========================== -->
+
+<section class="menu" id="menu">
+
+    <div class="menu-contenido">
+
+        <div class="corazon">♡</div>
+
+        
+
+        <p>Elige un cuadrito </p>
+
+
+        <!-- =========================
+             TARJETAS
+        ========================== -->
+
+        <div class="opciones">
+
+
+            <!-- TARJETA CANCIÓN -->
+
+            <button class="opcion" data-seccion="cancion">
+
+                <div class="opcion-imagen">
+
+                    <img
+                        src="img/gatito.jpeg"
+                        alt="Canción especial"
+                    >
+
+                </div>
+
+                <div class="opcion-texto">
+
+                    <span class="opcion-icono">🎵</span>
+
+                    <h3>Esta canción me recuerda a ti</h3>
+
+                    <p>
+                        Una canción que me hace pensar en ti
+                        cada vez que la escucho.
+                    </p>
+
+                </div>
+
+            </button>
+
+
+            <!-- TARJETA ÁLBUM -->
+
+            <button class="opcion" data-seccion="album">
+
+                <div class="opcion-imagen">
+    <img
+        src="img/nosotros%20dibujo.jpeg"
+        alt="Nosotros"
+    >
+</div>
+                <div class="opcion-texto">
+
+                    <span class="opcion-icono">📸</span>
+
+<h3>album</h3>
+                    <p>
+                        Momentos que son
+                        bonitos contigo.
+                    </p>
+
+                </div>
+
+            </button>
+
+
+            <!-- TARJETA CARTA -->
+
+            <button class="opcion" data-seccion="carta">
+
+                <div class="foto-seccion">
+
+                    <img
+                        src="img/rosa.jpeg"
+                        alt="Carta para ti"
+                    >
+
+                </div>
+
+                <div class="opcion-texto">
+
+                    <span class="opcion-icono">💌</span>
+
+                    <h3>Una carta para ti</h3>
+
+                    <p>
+                        Cosas que quiero que sepas
+                    </p>
+
+                </div>
+
+            </button>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SECCIÓN CANCIÓN
+========================== -->
+
+<section class="seccion" id="cancion">
+
+    <div class="seccion-contenido cancion-contenido">
+
+        <span class="decoracion">♡</span>
+
+        <h2>Esta canción me recuerda a ti</h2>
+
+        <p class="cancion-intro">
+            Hay canciones que toman sentido
+            cuando las escucho pensando en ti
+        </p>
+        <span class="nota-musical">♪</span>
+
+
+
+        <!-- FOTO -->
+
+        <div class="foto-cancion">
+
+           <img
+    src="img/album%20locos.jpeg"
+    alt="Nuestra canción">
+        </div>
+
+
+        <!-- INFORMACIÓN DE LA CANCIÓN -->
+
+        <div class="info-cancion">
+
+            
+    
+
+            
+
+        </div>
+
+
+        <!-- REPRODUCTOR -->
+
+ <div class="reproductor">
+
+    <button class="boton-play" id="botonPlay">
+        ▶
+    </button>
+
+    <div class="barra-musica">
+
+        <div class="barra-progreso" id="barraProgreso"></div>
+
+    </div>
+
+    <span class="tiempo" id="tiempo">
+        0:00
+    </span>
+
+</div>
+
+<audio id="audioCancion" src="music/locos.mpeg"></audio>
+<button class="volver">↩ Volver</button>
+
+</section>
+
+
+<!-- =========================
+     SECCIÓN ÁLBUM
+========================== -->
+
+<section class="seccion" id="album">
+
+    <div class="seccion-contenido album-contenido">
+
+        <span class="decoracion">♡</span>
+
+        <h2>Nuestro álbum</h2>
+
+        <div class="foto-seccion album-portada">
+
+        </div>
+
+
+        <div class="album-collage">
+
+    <div class="foto-album foto-1">
+        <img
+            src="img/foto1.jpeg"
+            alt="Foto 1"
+        >
+    </div>
+
+    <div class="foto-album foto-2">
+        <img
+            src="img/foto2.jpeg"
+            alt="Foto 2"
+        >
+    </div>
+
+    <div class="foto-album foto-3">
+        <img
+            src="img/foto3.jpeg"
+            alt="Foto 3"
+        >
+    </div>
+
+    <div class="foto-album foto-4">
+        <img
+            src="img/foto4.jpeg"
+            alt="Foto 4"
+        >
+    </div>
+
+    <div class="foto-album foto-5">
+        <img
+            src="img/foto5.jpeg"
+            alt="Foto 5"
+        >
+    </div>
+
+    <div class="foto-album foto-6">
+        <img
+            src="img/foto6.jpeg"
+            alt="Foto 6"
+        >
+    </div>
+
+    <div class="foto-album foto-7">
+        <img
+            src="img/foto7.jpeg"
+            alt="Foto 7"
+        >
+    </div>
+
+    <div class="foto-album foto-8">
+        <img
+            src="img/foto8.jpeg"
+            alt="Foto 8"
+        >
+    </div>
+
+    <div class="foto-album foto-9">
+        <img
+            src="img/foto9.jpeg"
+            alt="Foto 9"
+        >
+    </div>
+
+    <span class="collage-corazon corazon-1">♡</span>
+    <span class="collage-corazon corazon-2">♡</span>
+    <span class="collage-corazon corazon-3">♥</span>
+
+</div>
+
+        </div>
+
+        <button class="volver">↩ Volver</button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     SECCIÓN CARTA
+========================== -->
+
+<section class="seccion" id="carta">
+
+    <div class="seccion-contenido carta-contenido">
+
+        <span class="decoracion">♡</span>
+
+        <h2>Para mi niña linda</h2>
+
+
+
+        <div class="texto-carta">
+
+            <p>
+                ola amor bhsdvbhadsjlbh pues te kiero decir aca asi d q.
+                Te has vuelto una persona muy especial para mi, me gusta cada momento que me la paso contigo, todo lo que vamos construyendo juntos, hasta la cosa mas pequeña para mi se vuelve muy importante.
+             <p>
+                Gracias por estar conmigo, por seguirme eligiendo, por hacerme sentir querido y por ser esa persona con la que puedo ser yo mismo. Quiero seguir compartiendo momentos contigo, seguir conociéndote y si se puede llegar juntos a tener algo muy bonito, yo no te veo solo para un rato, yo si te quiero para algo serio y bien aca jsbjsbjs. 
+                </p>
+                Recuerdad que si algun dia te sientes sola o tienes alguna inseguridad, o no te gusta algo, dimelo y yo te explicare, cambiare, y hare lo posible para estar contigo. Me importas y mucho. D la nada d q al desperta pienso en ti, al dormir, aaaaaa al acostarme, aaaa. A todo valla d q siempre pienso en ti y siempre te extraño.
+                
+                Si algun dia dudas si te amo, recuerda que te lo dire cada dia.
+                
+                Te amo mi niña linda 
+
+        </div>
+<div class="foto-final">
+    <img src="img/nocabe.jpeg" alt="Un recuerdo especial">
+</div>
+
+        <div class="firma">
+            Con amor, Dani ♡
+        </div>
+
+        <button class="volver">↩ Volver</button>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     JAVASCRIPT
+========================== -->
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
